@@ -8,6 +8,6 @@
 </head>
 <body>
 <h2>You are on login page click below to go to Home Page</h2>
-<a href=" <spring:url value="/home" /> ">Click Here</a></td>
+<a href="home">Click Here</a></td>
 </body>
 </html>
