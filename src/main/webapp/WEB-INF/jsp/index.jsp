@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Login</title>
+<title>Home</title>
 </head>
 <body>
 <h2>You are on login page click below to go to Home Page</h2>
-<a href="https://mynpbnewwebapp.azurewebsites.net/home">Click Here</a></td>
+<a href="/home">Click Here</a></td>
 </body>
 </html>
