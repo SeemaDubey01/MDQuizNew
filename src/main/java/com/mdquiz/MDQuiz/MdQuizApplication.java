@@ -18,9 +18,9 @@ public class MdQuizApplication {
 	}
 	
 	@RequestMapping("/")
-	public String home() {
+	public String index() {
     return "index";
-	
+	}
 	@RequestMapping("/home")
 	public String home() {
     return "home";
