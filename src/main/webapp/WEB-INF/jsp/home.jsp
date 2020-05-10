@@ -4,10 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Login</title>
+<title>Home</title>
 </head>
 <body>
-<h2>You are on login page click below to go to Home Page</h2>
-<a href="home.jsp">Click Here</a></td>
+Welcome to MDQuiz
 </body>
 </html>
