@@ -9,5 +9,17 @@ public class MdQuizApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(MdQuizApplication.class, args);
 	}
-
+	
+	@RequestMapping("/")
+	public String home(Map<String, Object> model) {
+    model.put("message", "HowToDoInJava Reader !!");
+    return "index";
 }
+
+	@RequestMapping("/home")
+	public String next(Map<String, Object> model) {
+    model.put("message", "You are in new page !!");
+    return "home";
+}
+}
+
