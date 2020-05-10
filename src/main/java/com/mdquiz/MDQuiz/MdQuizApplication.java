@@ -16,6 +16,11 @@ public class MdQuizApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(MdQuizApplication.class, args);
 	}
+	
+	@RequestMapping("/")
+	public String home() {
+    return "index";
+	
 	@RequestMapping("/home")
 	public String home() {
     return "home";
