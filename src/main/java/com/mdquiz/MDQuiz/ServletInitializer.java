@@ -1,4 +1,4 @@
-package com.mdquiz.net;
+package com.mdquiz.MDQuiz;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
