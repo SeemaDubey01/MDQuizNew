@@ -4,25 +4,21 @@ import java.util.Map;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
+@Controller
 public class MdQuizApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MdQuizApplication.class, args);
 	}
-	
-	@RequestMapping("/")
-	public String home(Map<String, Object> model) {
-    model.put("message", "HowToDoInJava Reader !!");
-    return "index";
-}
-
 	@RequestMapping("/home")
-	public String next(Map<String, Object> model) {
-    model.put("message", "You are in new page !!");
+	public String home() {
     return "home";
 }
-}
 
+}

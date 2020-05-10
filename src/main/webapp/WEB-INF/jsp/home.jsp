@@ -7,6 +7,6 @@
 <title>Home</title>
 </head>
 <body>
-Welcome to MDQuiz
+<h2>Welcome to MDQuiz</h2>
 </body>
 </html>
