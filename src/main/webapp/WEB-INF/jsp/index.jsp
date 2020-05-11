@@ -6,8 +6,8 @@
 <meta charset="ISO-8859-1">
 <title>Home</title>
 </head>
-<body>
-<h2>You are on login page click below to go to Home Page</h2>
-<a href="/home">Click Here</a></td>
+<body><h1>Welcome to DeQuiz</h1>
+<h1>Welcome to DeQuiz</h1>
+<a href="/joinQuiz">Click Here</a></td>
 </body>
 </html>
