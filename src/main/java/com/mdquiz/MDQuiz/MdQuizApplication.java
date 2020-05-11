@@ -21,7 +21,7 @@ public class MdQuizApplication {
 	public String index() {
     return "index";
 	}
-	@RequestMapping("/home")
+	@RequestMapping("/joinQuiz")
 	public String home() {
     return "home";
 }
