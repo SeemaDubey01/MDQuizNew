@@ -8,6 +8,6 @@
 </head>
 <body><h1>Welcome to DeQuiz</h1>
 <h1>Welcome to DeQuiz</h1>
-<a href="/joinQuiz">Click Here</a></td>
+<a href="/joinQuiz">Join Quiz</a></td>
 </body>
 </html>
