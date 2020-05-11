@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Home</title>
+<title>DeQuiz</title>
 </head>
-<body><h1>Welcome to DeQuiz</h1>
+<body>
 <h1>Welcome to DeQuiz</h1>
 <a href="/joinQuiz">Join Quiz</a></td>
 </body>
