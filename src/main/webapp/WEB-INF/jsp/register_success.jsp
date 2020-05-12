@@ -6,6 +6,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>JoinQuiz</title>
+
 </head>
 <body>
 <div align="center">

@@ -1,23 +1,30 @@
 package com.mdquiz.MDQuiz;
 
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
 public class User {
+	
+	@QuizIdConstraint
+	private Integer quizId;
 
-	private String quizId;
-
+	
+	@Size(min = 1, max = 35, message = "Please enter name")
 	private String fullName;
 
-	public String getQuizId() {
+	public Integer getQuizId() {
 		return quizId;
+	}
+
+	public void setQuizId(Integer quizId) {
+		this.quizId = quizId;
 	}
 
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return "user {Quiz Number ="+quizId +" Name = "+fullName+"}";
-	}
-
-	public void setQuizId(String quizId) {
-		this.quizId = quizId;
+		return "user {Quiz Number =" + quizId + " Name = " + fullName + "}";
 	}
 
 	public String getFullName() {
